@@ -7,8 +7,11 @@ Remove unused resources as determined by Android lint.
 
 
 Usage:
+
 a) Run lint from within Android Studio.  Specifically, the "Unused resources" lint.
+
 b) Export this lint to xml.  There's an icon in Android studio to do so.
+
 c) Run this script:
 
 ruby ./rm_unused_resources.rb <lint.xml file location>  <root of your Android Studio project>
